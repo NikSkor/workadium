@@ -1,0 +1,28 @@
+.contacts {
+    text-align: right;
+    width: 250px;
+    display: inline-block;
+    position: relative;
+}
+.contacts__link {
+    color: #ffffff;
+    font-size: 21px;
+    font-family: "GothamProBold";
+    display: block;
+}
+.contacts__trigger {
+    color: #b12167;
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contacts__link {
+    text-decoration: none;
+}
+.contacts__trigger:hover {
+    color: #769dcd;
+}
+.contacts__trigger:hover + .droppdown {
+    opacity: 1;
+}

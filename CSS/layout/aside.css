@@ -1,0 +1,90 @@
+.aside-menu {
+    /*padding: 0;
+    list-style-type: none;
+    margin:0;*/ 
+    vertical-align: top;
+    margin-top: 45px;
+}
+.aside__title {
+    display: inline-block;
+    /*font-size: 12px;*/
+    color: #ec1e79;
+    padding-left: 14px;
+    max-width: 100px;
+    overflow: hidden;
+}
+.aside__icon {
+    display: inline-block;
+    /*margin-right: 13px;*/
+    width: 21px;
+    height: 19px;
+    /*height: 15px;*/
+    background: url("/img/icons/sidebar.png") no-repeat center;
+}
+.aside__icon_main {
+    background-position: -117px -15px;
+}
+.aside__icon_tarifs {
+    background-position: -211px -15px;
+}
+.aside__icon_feed {
+    background-position: -15px -15px;
+}
+.aside__image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.aside__link {
+    text-decoration: none;
+    /*color: inherit;*/
+    /*display: block;*/
+}
+.aside__item {
+    margin-bottom: 24px;
+    height: 25px;
+    box-sizing: border-box;
+}
+.aside {
+    width: 180px;
+    /*height: 123px;*/
+    float: left;
+    /*margin-top: 44px;*/
+    font-family: "GothamProBold";
+    font-size: 12px;
+    padding: 0;
+    /*padding-left: 20px;*/
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    /*text-transform: uppercase;
+    letter-spacing: 1px;*/
+    /*display: block;*/
+}
+.aside__link:hover .aside__title {
+    color: #221f1f;
+}
+.aside__link:hover .aside__icon_main {
+    background-position: -164px -15px;
+}
+.aside__link:hover .aside__icon_tarifs {
+    background-position: -260px -15px;
+}
+.aside__link:hover .aside__icon_feed {
+    background-position: -66px -15px;
+}
+    
+.aside__link_active .aside__title {
+    color: #221f1f;  
+}
+.aside__link_active .aside__icon_tarifs{
+    background-position: -260px -15px;
+}
+.aside__link_active .aside__icon_main {
+    background-position: -164px -15px;
+    
+}
+.aside__link_active .aside__icon_feed {
+    background-position: -66px -15px;
+    
+}

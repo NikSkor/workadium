@@ -1,0 +1,119 @@
+.footer {
+    /*clear: both;*/
+    background-color:#27273e;
+    height: 75px;
+    padding-bottom: 10px;
+    /*margin-top: -75px;*/
+    min-width: 1100px;
+}
+.footer__block {
+    /*display: inline-block;*/
+    float: left;
+    /*width: 320px;*/
+    height: 75px;
+    margin: 0;
+    box-sizing: border-box;
+    /*margin-top: 10px;*/
+    /*vertical-align: top;*/
+    /*margin-right: 70px;*/
+   /* box-sizing: border-box;*/
+}
+.footer__block:nth-child(3n+0){
+    margin-right: 0;
+}
+.footer__author {
+    color: #ffffff;
+    font-size: 14px;
+    width: 430px;
+    font-family: "Gotham Pro",sans-serif;
+    padding: 10px 20px;
+    text-align: left;
+    box-sizing: border-box;
+}
+a.footer__author-link {
+    color: #ffffff;
+    font-family: "GothamProBold";
+}
+.footer_name {
+    font-family: "GothamProBold";
+}
+.footer__logo {
+    /*vertical-align: center;*/
+    padding-top: 15px;
+    padding-left: 55px;
+    }
+
+.social {
+    color: #ffffff;
+    font-family: "GothamProBold";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    /*width: 430px;*/
+    box-sizing: border-box;
+}
+.social__menu {
+    margin-top: 10px;
+    /*padding: 0;
+    list-style-type: none;*/
+}
+.social__item {
+    /* background: #ffffff; */
+    background: url("/img/icons/socials.png") no-repeat center;
+    display: inline-block;
+    /* border-radius: 20px 20px 20px 20px; */
+    width: 20px;
+    height: 20px;
+    /* text-align: center; */
+    padding: 0;
+    margin-right: 7px;
+}
+.social__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.social__item_vk {
+    background-position: -279px -7px;
+}
+.social__item_vk:hover {
+    background-position: -313px -7px;
+}
+.social__item_fb {
+    background-position: -7px -7px;
+}
+.social__item_fb:hover {
+    background-position: -41px -7px;
+} 
+.social__item_google {
+    background-position: -75px -7px;
+}
+.social__item_google:hover {
+    background-position: -109px -7px;
+} 
+.social__item_tw {
+    background-position: -211px -7px;
+}
+.social__item_tw:hover {
+    background-position: -245px -7px;
+} 
+.social__item_mail {
+    background-position: -143px -7px;
+}
+.social__item_mail:hover {
+    background-position: -177px -7px;
+} 
+.footer__block_social {
+    /*vertical-align: center;*/
+    width: 430px;
+    padding-left: 250px;
+    box-sizing: border-box;
+}
+.footer__block_logo {
+    width: 200px;
+    box-sizing: border-box;
+    /*width: 210px;*/
+    /*padding-left: 110px;*/
+
+}

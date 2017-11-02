@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-feed {
+    width: 21px;
+    height: 19px;
+    background-position: -15px -15px;
+}
+
+.sprite-feed_b {
+    width: 21px;
+    height: 19px;
+    background-position: -66px -15px;
+}
+
+.sprite-main {
+    width: 17px;
+    height: 15px;
+    background-position: -117px -15px;
+}
+
+.sprite-main_b {
+    width: 17px;
+    height: 15px;
+    background-position: -164px -15px;
+}
+
+.sprite-wallet {
+    width: 19px;
+    height: 16px;
+    background-position: -211px -15px;
+}
+
+.sprite-wallet_b {
+    width: 19px;
+    height: 16px;
+    background-position: -260px -15px;
+}

@@ -1,0 +1,134 @@
+.form {
+    background: #f5f5f5;
+    border-radius: 2px;
+    padding: 50px 68px 50px 68px;
+    width: 700px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+/* .form__row {
+    margin-bottom: 20px;
+} */
+.form__title {
+    color: #221f1f;
+    font-size: 49px;
+    font-family: "GothamProBold";
+}
+.form__label {
+    font-family: "GothamProLight";
+    font-size: 14px;
+    color: #221f1f;
+    display: inline-block;
+}
+.form__input {
+    background-color: #ffffff;
+    font-family: "GothamProLight";
+    font-size: 14px;
+    color: #221f1f;
+    border-radius: 2px;
+    padding: 17px 5px 16px 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.form__column {
+    display: inline-block;
+    margin-right: 20px;
+    width: 270px;
+    box-sizing: border-box;
+}
+.form__column:nth-child(4) {
+    margin-right: 0;
+}
+.form__textarea {
+    background-color: #ffffff;
+    font-family: "GothamProLight";
+    font-size: 14px;
+    color: #221f1f;
+    border-radius: 2px;
+    padding: 17px 5px 16px 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    height: 88px;
+    resize: none;
+}
+.form__input:focus {
+    outline: 1px solid #b12167;
+}
+.form__textarea:focus {
+    outline: 1px solid #b12167;
+}
+.form__radio {
+    display: inline-block;
+    margin-right: 15px;
+}
+.form__label_radio {
+    display: block;
+    margin-top: 20px;
+}
+.form__input-radio {
+    position: absolute;
+    opacity: 0;
+}
+.form__label_type_radio {
+    position: relative;
+}
+.form__label_type_radio:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #cecece;
+    background: #f3f3f3;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.form__label_type_radio:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    /* border: 1px solid  */
+    background: #b12167;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+.form__input-radio:checked + .form__label_type_radio:after {
+    opacity: 1;
+}
+.form__input-radio:checked + .form__label_type_radio:before {
+    border-color: #b12167;
+}
+.form__input-radio:checked + .form__label_type_radio {
+    color: #b12167;
+}
+.form__input-button {
+    font-family: "GothamProBold";
+    font-size: 12px;
+    background: #27273e;
+    color: #ffffff;
+    width: 140px;
+    height: 48px;
+    transition: all .4s;
+    letter-spacing: .3em;
+    padding: 10px 20px 8px 20px;
+    box-sizing: border-box;
+}
+.form__input-button:hover {
+    background: #b12167;
+    cursor: pointer;
+}
+.form__column_button {
+    text-align: right;
+    margin-right: 0;
+}

@@ -1,0 +1,76 @@
+.tarifs {
+    /*margin: 0;
+    padding: 0;
+    list-style-type: none;*/
+    font-size: 0;
+    margin-bottom: 40px;
+}
+.tarifs__item {
+    width: 250px;
+    display: inline-block;
+    
+    margin-right: 55px;
+    /*height: 417px;*/
+    vertical-align: top;
+    padding: 0;
+    margin-bottom: 33px;
+}
+.tarifs__head {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}   
+.tarifs__img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    /*width: 250px;*/
+}
+.tarifs__overlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #27273e;
+    opacity: 0.851;
+    transition: all 0.4s;
+}
+.tarifs__overlay:hover {
+    background: none;
+}
+.tarifs__title {
+    color: #5dd1f8;
+    font-size: 24px;
+    font-family: "GothamProBold";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.tarifs__price {
+    font-size: 18px;
+    font-family: "GothamProBold";
+    color: #221f1f;
+}
+.tarifs__descriprion {
+    font-size: 14px;
+    font-family: "GothamProLight";
+    color: #221f1f;    
+}
+.tarifs__informations {
+    text-align: center;
+}
+.tarifs__item:nth-child(3n+0){
+    margin-right: 0;
+}
+.tarifs__vip {
+    color: #b12167;
+}
+.tarifs__title_vip {
+    white-space: pre;
+}
