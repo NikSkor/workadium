@@ -13,7 +13,7 @@
     display: inline-block;
     width: 21px;
     height: 19px;
-    background: url("./img/icons/sidebar.png") no-repeat center;
+    background: url("../../img/icons/sidebar.png") no-repeat center;
 }
 .aside__icon_main {
     background-position: -117px -15px;
