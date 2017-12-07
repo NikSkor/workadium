@@ -1,16 +1,16 @@
-@import "fonts.css";
-@import "layout/header.css";
-@import "layout/logo.css";
-@import "layout/contacts.css";
-@import "layout/breadcrumbs.css";
-@import "layout/tarifs.css";
-@import "layout/aside.css";
-@import "layout/footer.css";
-@import "layout/about.css";
-@import "layout/droppdown.css";
-@import "layout/intro.css";
-@import "layout/feeds.css";
-@import "layout/form.css";
+@import "../CSS/fonts.css";
+@import "../CSS/layout/layout/header.css";
+@import "../CSS/layout/layout/logo.css";
+@import "../CSS/layout/layout/contacts.css";
+@import "../CSS/layout/layout/breadcrumbs.css";
+@import "../CSS/layout/layout/tarifs.css";
+@import "../CSS/layout/layout/aside.css";
+@import "../CSS/layout/layout/footer.css";
+@import "../CSS/layout/layout/about.css";
+@import "../CSS/layout/layout/droppdown.css";
+@import "../CSS/layout/layout/intro.css";
+@import "../CSS/layout/layout/feeds.css";
+@import "../CSS/layout/layout/form.css";
 
 html, body {
     width: 100%;
@@ -27,11 +27,6 @@ body {
     min-width: 1100px;
     overflow: hidden;
 }
-/*.wrapper:after {
-    content: "";
-    display: block;
-    height: 75px;
-}*/
 .container {
     width: 1060px;
     margin: 0 auto;
@@ -53,9 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .main__title {
     color: #221f1f;
     font-family: "GothamProBold";
-    /*padding: 0;*/
     margin: 0;
-    /*font-size: 0;*/
     font-size: 49px;
     margin-bottom: 30px;
     margin-top: 8px;
@@ -78,6 +71,3 @@ ul li {
 p {
     margin: 0;
 }
-/*.section {
-    margin-bottom: 100px;
-}*/
