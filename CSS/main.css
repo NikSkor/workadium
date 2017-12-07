@@ -1,16 +1,16 @@
-@import "../CSS/fonts.css";
-@import "../CSS/layout/layout/header.css";
-@import "../CSS/layout/layout/logo.css";
-@import "../CSS/layout/layout/contacts.css";
-@import "../CSS/layout/layout/breadcrumbs.css";
-@import "../CSS/layout/layout/tarifs.css";
-@import "../CSS/layout/layout/aside.css";
-@import "../CSS/layout/layout/footer.css";
-@import "../CSS/layout/layout/about.css";
-@import "../CSS/layout/layout/droppdown.css";
-@import "../CSS/layout/layout/intro.css";
-@import "../CSS/layout/layout/feeds.css";
-@import "../CSS/layout/layout/form.css";
+@import "./fonts.css";
+@import "./layout/header.css";
+@import "./layout/logo.css";
+@import "./layout/contacts.css";
+@import "./layout/breadcrumbs.css";
+@import "./layout/tarifs.css";
+@import "./layout/aside.css";
+@import "./layout/footer.css";
+@import "./layout/about.css";
+@import "./layout/droppdown.css";
+@import "./layout/intro.css";
+@import "./layout/feeds.css";
+@import "./layout/form.css";
 
 html, body {
     width: 100%;
