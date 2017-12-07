@@ -42,7 +42,7 @@
 }
 .feeds__img_none {
     display: block;
-    background: url("./img/logo/logo-grey.png") no-repeat 50% 40%;
+    background: url("../../img/logo/logo-grey.png") no-repeat 50% 40%;
 }
 .pagination__link {
     text-align: center;
